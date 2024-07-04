@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Room</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./chat.css">
+</head>
+
+<body>
+  <div class="flexbox">
+    <div class="chat-box">
+      <div class="chat-box-header">
+        <h3>
+          <div class="container">
+            <img src="cloudIcon.jpg" alt="icon" width="30" height="30" class="icon">
+            <span>&nbsp;cloudwann</span>
+          </div><span class="circle"></span> online
+
+        </h3>
+      </div>
+      <div id="chat_box_body" class="chat-box-body">
+        <div id="chat_messages">
+          <div class="profile my-profile">
+            <span>w.c.k__0908</span>
+            <img src="me.jpg" width="30" height="30" />
+          </div>
+          <div class="message my-message">
+            牙Cloud 生日快樂 Happy Birthday
+          </div>
+          <div class="message my-message">
+            整咗個網站 你可以撳落去睇吓<br />
+            <a href="login.html" style="color: rgb(255, 172, 19);"><b>點擊進入網站</b></a>
+          </div>
+          <div class="message my-message">
+            帳號: cloudwann<br />
+            密碼: cloud0705
+          </div>
+          <div class="profile other-profile">
+            <img src="cloudIcon.jpg" width="30" height="30" />
+            <span>cloudwann</span>
+          </div>
+          <div class="message other-message">
+            Thank you~
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-box-footer">
+        <textarea id="chat_input" placeholder="發送訊息..."></textarea>
+        <button id="send">
+          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="#006ae3" d="M2,21L23,12L2,3V10L17,12L2,14V21Z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
